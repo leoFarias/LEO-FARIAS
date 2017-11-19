@@ -1,0 +1,33 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rodrigues.leonardo.aula15android.Tela2Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="199dp"
+        android:layout_height="54dp"
+        android:text="Cliente"
+        android:textAppearance="@android:style/TextAppearance"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <Button
+        android:id="@+id/BtoD"
+        android:layout_width="118dp"
+        android:layout_height="58dp"
+        android:text="Detalhes"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <GridView
+        android:id="@+id/listVC"
+        android:layout_width="360dp"
+        android:layout_height="376dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+
+</android.support.constraint.ConstraintLayout>
